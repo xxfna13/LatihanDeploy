@@ -1,0 +1,354 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item:hover{
+    background-color: lightcoral;
+}
+.navbar-brand img{
+    width: 120px;
+    height: 70px;
+}
+.carousel-item img{
+    height: 80vh;
+    
+}
+.card{
+    margin: 10px 50px 35px 85px;
+    background-color: #ECF0F1;
+    border-radius: 10px;
+    width: 300px;
+    height: 420px;
+}
+.card-body{
+    width: 286px;
+    height: 260px;
+}
+.card-img-top{
+    width: 286px;
+    height: 160px;
+    padding: 8px;
+}
+.card-title{
+    font-size: 16px;
+}
+ul{
+    list-style: none;
+}
+.btn{
+    margin: 0 auto;
+    display: block;
+}
+hr{
+    width: 30%;
+    margin-top: 40px;
+}
+.section-sale-flashsale{
+    margin: 0;
+    padding: 16px 0 50px 65px;
+    height: 65vh;
+    background-color: #DCDCDC;
+}
+.section-sale{
+    position: relative;
+}
+.section-sale > img{
+    width: 25%;
+    height: 60vh;
+    border-radius: 5px;
+    position: absolute;
+}
+.sale-flag{
+    width: 75px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 25px;
+}
+.sale-flag >p{
+    font-size: 16px;
+    font-family: fantasy;
+    padding: 2px 20px 15px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+.section-flash-sale{
+    width: 70%;
+    height: 60vh;
+    float: right;
+    background-color:#f6f6f6;
+    margin-right: 30px;
+    border-radius: 5px;
+    /* padding: 16px 0px 50px 0px; */
+    position: relative;
+}
+.section-flash-sale > img{
+    width: 60%;
+    height: 60vh;
+    border-radius: 2px;
+    position: absolute;
+    padding-top: 0;
+}
+.section-flash-sale > p{
+    float: right;
+    text-align: center;
+    font-size: 25px;
+    padding: 25px 80px 50px 0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+.countdown{
+    margin:0;
+    padding-top: 170px;
+    padding-right: 0;
+    padding-left: 600px;
+}
+h2{
+    color: #FA8072;
+    font-weight: 16px;
+    font-size: 25px;
+    margin: 135px 0px 0px 650px;
+    position: absolute;
+    text-align: center;
+  }
+  
+  #clockdiv{
+      font-family: sans-serif;
+      color: #fff;
+      display: inline-block;
+      font-weight: 100;
+      text-align: center;
+      font-size: 30px;
+  }
+  
+  #clockdiv > div{
+      padding: 5px;
+      border-radius: 3px;
+      background: #FFA07A;
+      display: inline-block;
+      height: 85px;
+  }
+  
+  #clockdiv div > span{
+      padding: 5px;
+      border-radius: 3px;
+      background: #FFA07A;
+      display: inline-block;
+      height: 50px;
+  }
+  
+  .smalltext{
+      padding-top: 5px;
+      font-size: 16px;
+  }
+  .button {
+    background-color: #FA8072;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 0px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin: 25px 0px 0px 660px;
+    height: 45px;
+
+  }
+  .button1 {
+    box-shadow: 0 8px 16px 0 silver, 0 6px 20px 0 silver;
+  }
+  .btn-shop-now{
+      background-color: #FA8072;
+      color: white;
+      /* border-radius: 10px;
+      border: 1px solid #FA8072; */
+  }
+  .title-new-arrival{
+      margin: 0 auto;
+      font-size: 45px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      padding-bottom: 30px;
+      margin-top: 0;
+      color: white;
+      /* margin-bottom: 75px; */
+      padding-top: 0;
+  }
+  
+  h1{
+      font-size: 35px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+  }
+  .footer{
+      height: 35vh;
+      background-color: #DCDCDC;
+      margin: 0;
+      padding: 0;
+
+  }
+.section-social-media{
+    margin: 15px 0 0 30px;
+    padding: 0 20px 0 0;
+    float: left;
+}
+.title-follow-up{
+    font-size: 18px;
+    
+}
+.footer-link{
+    padding :0;
+    margin: 0;
+}
+.section-social-media img{
+    width: 30px;
+    height: 45x;
+    padding: 10px 0 0 0;
+
+}
+.title-subscribe{
+    font-weight: bold;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 15px 0 0px 0;
+}
+input[type=text] {
+    height: 40px;
+    padding: 12px;
+    margin: 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+button[type=submit]{
+    width: 90px;
+    height: 40px;
+    padding: 0;
+    margin: 0 0 0 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #FA8072;
+    border-radius: 10px;
+}
+.section-about-us{
+    float: right;
+    padding: 0;
+    margin: 10px 40px 0 30px;
+}
+/* .title-about-us{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 15px 0px 0 0;
+} */
+.list-about-us{
+    text-decoration: none;
+    color: black;
+
+}
+.section-about-us p{
+    margin: 0;
+}
+.list-about-us :hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+.section-latest-update{
+    margin: 15px 100px 0 0px;
+    padding: 0 20px 00px 0;
+    float: right;
+}
+.media{
+    width: 50px;
+    margin: 0;
+    padding: 0 280px 0 0;
+}
+.pull-left{
+    padding: 0;
+    margin: 0;
+}
+.media-body{
+    margin: 0;
+    padding: 0;
+}
+.media-object{
+    padding: 0;
+    margin: 0;
+}
+.media-heading{
+    float: left;
+    margin: 0 0  0 0;
+    padding: 5px 0 0 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+
+}
+.media-heading :hover{
+    text-decoration: underline;
+}
+.media-content{
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 280px;
+}
+.media-object{
+    padding: 10px 15px 10px 0;
+}
+h5{
+    font-weight: bold;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0px 0 5px 0;
+}
+/* @media only screen, (min-width:768px) and (max-width: 1024px) {
+    html, body{
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+    }
+    .carousel-item img{
+        height: 50vh;
+}
+     */
+
+    /* .navbar, .navbar-expand-lg, .navbar-light, .transparent{
+        float: right;
+        text-align: right;
+    }
+    .navbar-toggler, .navbar-toggler-icon{
+        float: right;
+        text-align: right;
+    }
+    .nav-item{
+        width: 70vh;
+        position: relative;
+        display: inline-block;
+        float: right;
+    }
+   .navbar-brand img{
+        width: 45px;
+        height: 30px;
+        display: none;
+    }
+    .carousel-item img{
+        height: 50vh;
+        
+    }
+} */
